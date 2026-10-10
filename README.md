@@ -9,37 +9,31 @@
   <a href="https://bun.sh"><img src="https://cdn.simpleicons.org/bun/DF2638" alt="Bun" width="40" height="40"></a>
 </p>
 
-I build web apps and browser extensions. My projects range from getting an email verification code into a login form to tracking money across multiple wallets.
+Computer science student at Carleton University. I build web apps and browser extensions with React and TypeScript.
 
-**[Repositories](https://github.com/bakrmatlab?tab=repositories)** &nbsp; / &nbsp; **[OTPGuard website](https://otpguard.net)** &nbsp; / &nbsp; **[Portfolio source](https://github.com/bakrmatlab/portfolio)**
+**[Portfolio](https://www.bakrmatlab.com/)** &nbsp; / &nbsp; **[Repositories](https://github.com/bakrmatlab?tab=repositories)** &nbsp; / &nbsp; **[OTPGuard](https://otpguard.net)**
 
 ---
 
 ### 01 / OTPGuard
 
-**An email code, without the trip back to your inbox.**
+A Chrome extension that finds recent Gmail verification codes and fills them when you click **Fill**. Its web dashboard handles setup, connection status, and preferences.
 
-A Chrome extension that finds recent Gmail verification codes and lets you choose when to fill them. A companion web dashboard handles setup, connection status, and preferences.
-
-- Gmail tokens, messages, and codes stay inside the extension.
-- Filling requires a click; the extension never submits the form.
-- Shared OTP and security logic sits alongside the extension and website.
+- Gmail tokens and messages stay in the extension; a code goes to the page only when you choose to fill it.
+- The extension never submits the form, though a website may continue automatically after filling.
 
 `React` `Next.js` `Convex` `Bun` `Chrome MV3`
 
 [Source & technical notes](https://github.com/bakrmatlab/OTPGuard) &nbsp; / &nbsp; [Website](https://otpguard.net)
 
-<sub>The extension is currently installed unpacked; it is not yet available in the Chrome Web Store.</sub>
+<sub>Unpacked extension; not yet in the Chrome Web Store. Code matching does not verify that a code belongs to the current website.</sub>
 
 ### 02 / MoneyPal
 
-**Multiple wallets. One place to follow the money.**
+A personal finance app that tracks deposits, withdrawals, and transfers across multiple wallets. Convex synchronizes the data; Clerk handles sign-in.
 
-A personal finance app with deposits, withdrawals, wallet transfers, categories, and an analytics dashboard. Convex keeps data synchronized in real time; Clerk handles authentication.
-
-- Separate wallets with their own colors and icons.
-- Categorized transactions and financial charts.
-- Light and dark themes across the app.
+- Wallet colors and icons, transaction categories, and financial charts.
+- Light and dark themes.
 
 `React` `Vite` `Convex` `Clerk` `Tailwind CSS` `TanStack Router`
 
@@ -47,15 +41,15 @@ A personal finance app with deposits, withdrawals, wallet transfers, categories,
 
 ### 03 / Portfolio
 
-A separate React and TypeScript project, built with Vite and Tailwind CSS.
+My personal site, with projects, skills, and background. Built with React, TypeScript, Vite, and Tailwind CSS.
 
-[Source](https://github.com/bakrmatlab/portfolio)
+[Website](https://www.bakrmatlab.com/) &nbsp; / &nbsp; [Source](https://github.com/bakrmatlab/portfolio)
 
 ![Code assembly line](./assembly-line.svg)
 
 ---
 
-### Stack, By Job
+### Stack
 
 | Layer | Tools in these projects |
 | :--- | :--- |
@@ -68,16 +62,17 @@ A separate React and TypeScript project, built with Vite and Tailwind CSS.
 
 ### Inside The Repos
 
-![GitHub contribution activity with an animated pixel dragon](./activity-dragon.svg)
+![Contribution snapshot from October 10, 2026, with an animated pixel dragon](./activity-dragon-v2.svg)
 
-OTPGuard includes [architecture decisions](https://github.com/bakrmatlab/OTPGuard/blob/main/documentation/architecture.md), a [threat model](https://github.com/bakrmatlab/OTPGuard/blob/main/documentation/threat-model.md), and synthetic browser tests. MoneyPal documents its [Convex setup](https://github.com/bakrmatlab/MoneyPal#convex-setup) and [project structure](https://github.com/bakrmatlab/MoneyPal#project-structure).
+- OTPGuard: [architecture](https://github.com/bakrmatlab/OTPGuard/blob/main/documentation/architecture.md), [threat model](https://github.com/bakrmatlab/OTPGuard/blob/main/documentation/threat-model.md), and browser tests with synthetic data.
+- MoneyPal: [Convex setup](https://github.com/bakrmatlab/MoneyPal#convex-setup) and [project structure](https://github.com/bakrmatlab/MoneyPal#project-structure).
 
 <details>
 <summary>Earlier projects</summary>
 
 <br>
 
-[TheGuardianSearch](https://github.com/bakrmatlab/TheGuardianSearch) &nbsp; / &nbsp; [basic-CRUD-project](https://github.com/bakrmatlab/basic-CRUD-project) &nbsp; / &nbsp; [git_practice](https://github.com/bakrmatlab/git_practice)
+[TheGuardianSearch](https://github.com/bakrmatlab/TheGuardianSearch) &nbsp; / &nbsp; [basic-CRUD-project](https://github.com/bakrmatlab/basic-CRUD-project)
 
 </details>
 
