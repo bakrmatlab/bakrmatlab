@@ -68,7 +68,7 @@ A separate React and TypeScript project, built with Vite and Tailwind CSS.
 
 ### Inside The Repos
 
-![GitHub contribution activity in red](./activity-red.svg)
+![GitHub contribution activity with an animated pixel dragon](./activity-dragon.svg)
 
 OTPGuard includes [architecture decisions](https://github.com/bakrmatlab/OTPGuard/blob/main/documentation/architecture.md), a [threat model](https://github.com/bakrmatlab/OTPGuard/blob/main/documentation/threat-model.md), and synthetic browser tests. MoneyPal documents its [Convex setup](https://github.com/bakrmatlab/MoneyPal#convex-setup) and [project structure](https://github.com/bakrmatlab/MoneyPal#project-structure).
 
