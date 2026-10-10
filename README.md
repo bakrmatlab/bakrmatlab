@@ -17,7 +17,7 @@ I build web apps and browser extensions. My projects range from getting an email
 
 ---
 
-### <img src="https://raw.githubusercontent.com/bakrmatlab/OTPGuard/main/apps/extension/assets/icon.png" alt="" width="32" height="32"> 01 / OTPGuard
+### 01 / OTPGuard
 
 **An email code, without the trip back to your inbox.**
 
@@ -33,7 +33,7 @@ A Chrome extension that finds recent Gmail verification codes and lets you choos
 
 <sub>The extension is currently installed unpacked; it is not yet available in the Chrome Web Store.</sub>
 
-### <img src="https://raw.githubusercontent.com/bakrmatlab/MoneyPal/main/public/android-chrome-192x192.png" alt="" width="32" height="32"> 02 / MoneyPal
+### 02 / MoneyPal
 
 **Multiple wallets. One place to follow the money.**
 
