@@ -1,7 +1,5 @@
 ![Bakr Matlab - Web applications and browser extensions](./banner-motion.svg)
 
-![GitHub contribution activity in red](./activity-red.svg)
-
 <p align="center">
   <a href="https://react.dev"><img src="https://cdn.simpleicons.org/react/DF2638" alt="React" width="40" height="40"></a>&nbsp;&nbsp;&nbsp;
   <a href="https://nextjs.org"><img src="https://cdn.simpleicons.org/nextdotjs/DF2638" alt="Next.js" width="40" height="40"></a>&nbsp;&nbsp;&nbsp;
@@ -14,10 +12,6 @@
 I build web apps and browser extensions. My projects range from getting an email verification code into a login form to tracking money across multiple wallets.
 
 **[Repositories](https://github.com/bakrmatlab?tab=repositories)** &nbsp; / &nbsp; **[OTPGuard website](https://otpguard.net)** &nbsp; / &nbsp; **[Portfolio source](https://github.com/bakrmatlab/portfolio)**
-
-![Code assembly line](./assembly-line.svg)
-
-![Decorative bug boss battle](./bug-boss.svg)
 
 ---
 
@@ -57,6 +51,8 @@ A separate React and TypeScript project, built with Vite and Tailwind CSS.
 
 [Source](https://github.com/bakrmatlab/portfolio)
 
+![Code assembly line](./assembly-line.svg)
+
 ---
 
 ### Stack, By Job
@@ -80,5 +76,14 @@ OTPGuard includes [architecture decisions](https://github.com/bakrmatlab/OTPGuar
 <br>
 
 [TheGuardianSearch](https://github.com/bakrmatlab/TheGuardianSearch) &nbsp; / &nbsp; [basic-CRUD-project](https://github.com/bakrmatlab/basic-CRUD-project) &nbsp; / &nbsp; [git_practice](https://github.com/bakrmatlab/git_practice)
+
+</details>
+
+<details>
+<summary>After Hours</summary>
+
+![GitHub contribution activity in red](./activity-red.svg)
+
+![Decorative bug boss battle](./bug-boss.svg)
 
 </details>
