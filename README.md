@@ -37,7 +37,7 @@ A personal finance app that tracks deposits, withdrawals, and transfers across m
 
 `React` `Vite` `Convex` `Clerk` `Tailwind CSS` `TanStack Router`
 
-[Source & setup](https://github.com/bakrmatlab/MoneyPal)
+[Source & setup](https://github.com/bakrmatlab/MoneyPal) &nbsp; / &nbsp; [Website](https://money-pal-wheat.vercel.app/)
 
 ### 03 / Portfolio
 
