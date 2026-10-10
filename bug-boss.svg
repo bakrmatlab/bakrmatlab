@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-labelledby="title desc">
+<title id="title">Bug boss battle</title>
+<desc id="desc">Decorative arcade animation: a bug boss loses health in steps and respawns. Not live issue data.</desc>
+<style>
+.hp{transform-box:fill-box;transform-origin:left;animation:damage 12s steps(1,end) infinite}.boss{animation:hit 3s linear infinite}.eye{animation:blink 5s steps(1,end) infinite}.respawn{animation:respawn 12s steps(1,end) infinite;opacity:0}
+@keyframes damage{0%{transform:scaleX(1)}20%{transform:scaleX(.8)}40%{transform:scaleX(.6)}60%{transform:scaleX(.4)}80%{transform:scaleX(.15)}90%{transform:scaleX(0)}100%{transform:scaleX(1)}}@keyframes hit{0%,8%,100%{transform:translateX(0)}2%,6%{transform:translateX(-3px)}4%{transform:translateX(3px)}}@keyframes blink{0%,96%{opacity:1}97%,100%{opacity:0}}@keyframes respawn{90%{opacity:1}100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.hp,.boss,.eye,.respawn{animation:none}.hp{transform:scaleX(.6)}}
+</style>
+<rect width="1200" height="156" fill="#111111"/>
+<g class="boss" shape-rendering="crispEdges">
+<path d="M64 30H80V42H108V30H124V54H136V110H124V126H64V110H52V54H64Z" fill="#df2638"/>
+<path d="M44 62H52V74H36V62ZM136 62H152V74H136ZM36 94H52V106H36ZM136 94H152V106H136Z" fill="#ff6575"/>
+<g class="eye" fill="#ffffff"><path d="M68 64H84V80H68ZM104 64H120V80H104Z"/></g>
+<path d="M80 98H108V106H80Z" fill="#111111"/>
+</g>
+<text x="180" y="47" fill="#ff6575" font-family="monospace" font-size="21" font-weight="bold">BUG BOSS</text>
+<text x="1156" y="45" text-anchor="end" fill="#8d8d98" font-family="monospace" font-size="13">ARCADE LOOP</text>
+<rect x="180" y="65" width="976" height="32" fill="#252529" stroke="#48484e" stroke-width="2"/>
+<rect class="hp" x="186" y="71" width="964" height="20" fill="#df2638"/>
+<path d="M277 71V91M374 71V91M471 71V91M568 71V91M665 71V91M762 71V91M859 71V91M956 71V91M1053 71V91" stroke="#111111" stroke-width="4"/>
+<text x="180" y="126" fill="#c4c4cc" font-family="monospace" font-size="14">IT WORKED ON MY MACHINE.</text>
+<text class="respawn" x="1156" y="126" text-anchor="end" fill="#ff6575" font-family="monospace" font-size="14">RESPAWNING...</text>
+</svg>
