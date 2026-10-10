@@ -1,5 +1,7 @@
 ![Bakr Matlab - Web applications and browser extensions](./banner-red.svg)
 
+![GitHub contribution activity in red](./activity-red.svg)
+
 I build web apps and browser extensions. My projects range from getting an email verification code into a login form to tracking money across multiple wallets.
 
 **[Repositories](https://github.com/bakrmatlab?tab=repositories)** &nbsp; / &nbsp; **[OTPGuard website](https://otpguard.net)** &nbsp; / &nbsp; **[Portfolio source](https://github.com/bakrmatlab/portfolio)**
