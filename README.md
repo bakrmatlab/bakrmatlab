@@ -1,4 +1,4 @@
-![Bakr Matlab - Web applications and browser extensions](./banner-red.svg)
+![Bakr Matlab - Web applications and browser extensions](./banner-motion.svg)
 
 ![GitHub contribution activity in red](./activity-red.svg)
 
