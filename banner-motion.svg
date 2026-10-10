@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Bakr Matlab</title>
+  <desc id="desc">Red and black banner with moving line accents. Web applications and browser extensions.</desc>
+  <style>
+    .runner { animation: run 7s ease-in-out infinite; }
+    .project { transform-box: fill-box; transform-origin: left; animation: progress 9s ease-in-out infinite; }
+    .second { animation-delay: -6s; }
+    .third { animation-delay: -3s; }
+    @keyframes run { 0%,100% { transform: translateX(0); } 50% { transform: translateX(1016px); } }
+    @keyframes progress { 0%,32%,100% { transform: scaleX(.08); opacity: .4; } 12%,22% { transform: scaleX(1); opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .runner,.project { animation: none; } }
+  </style>
+  <rect width="1200" height="400" fill="#111111"/>
+  <rect width="1200" height="312" fill="#df2638"/>
+  <path d="M40 40H1160M40 272H1160" stroke="#111111" stroke-width="2"/>
+  <rect class="runner" x="40" y="37" width="104" height="6" fill="#ffffff"/>
+  <text x="44" y="77" fill="#111111" font-family="monospace" font-size="17">SELECTED PROJECTS</text>
+  <text x="1156" y="77" text-anchor="end" fill="#111111" font-family="monospace" font-size="17">PERSONAL / PUBLIC</text>
+  <text x="38" y="207" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900">BAKR MATLAB</text>
+  <text x="44" y="248" fill="#111111" font-family="monospace" font-size="18">WEB APPLICATIONS + BROWSER EXTENSIONS</text>
+  <text x="44" y="363" fill="#f7f7f7" font-family="monospace" font-size="17">01 / OTPGUARD</text>
+  <text x="443" y="363" fill="#f7f7f7" font-family="monospace" font-size="17">02 / MONEYPAL</text>
+  <text x="841" y="363" fill="#f7f7f7" font-family="monospace" font-size="17">03 / PORTFOLIO</text>
+  <path d="M399 338V376M797 338V376" stroke="#df2638" stroke-width="2"/>
+  <rect class="project" x="44" y="388" width="310" height="4" fill="#df2638"/>
+  <rect class="project second" x="443" y="388" width="310" height="4" fill="#df2638"/>
+  <rect class="project third" x="841" y="388" width="310" height="4" fill="#df2638"/>
+</svg>
