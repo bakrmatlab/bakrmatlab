@@ -1,36 +1,69 @@
-![Bakr Matlab - Ideas into interfaces](./banner.svg)
+![Bakr Matlab - Web applications and browser extensions](./banner.svg)
 
-<div align="center">
+I build web apps and browser extensions. My projects range from getting an email verification code into a login form to tracking money across multiple wallets.
 
-**Building web apps and browser tools that make everyday tasks easier.**
-
-[Projects](https://github.com/bakrmatlab?tab=repositories) &nbsp;&nbsp;/&nbsp;&nbsp; [OTPGuard](https://otpguard.net) &nbsp;&nbsp;/&nbsp;&nbsp; [Portfolio source](https://github.com/bakrmatlab/portfolio)
-
-</div>
-
-<br>
-
-### On My Workbench
-
-| Project | What it does | Built with |
-| :--- | :--- | :--- |
-| **[OTPGuard](https://github.com/bakrmatlab/OTPGuard)** | A Chrome extension for finding Gmail verification codes and filling them when you choose. | React, Next.js, Convex, Bun |
-| **[MoneyPal](https://github.com/bakrmatlab/MoneyPal)** | Multi-wallet money tracking with real-time sync and financial analytics. | React, Vite, Convex, Clerk |
-
-### Tools I Build With
-
-`React` &nbsp; `Next.js` &nbsp; `Tailwind CSS` &nbsp; `Convex` &nbsp; `Bun` &nbsp; `Vite`
+**[Repositories](https://github.com/bakrmatlab?tab=repositories)** &nbsp; / &nbsp; **[OTPGuard website](https://otpguard.net)** &nbsp; / &nbsp; **[Portfolio source](https://github.com/bakrmatlab/portfolio)**
 
 ---
 
-```text
-bakrmatlab ~ % cat philosophy.txt
+### 01 / OTPGuard
 
-Start with an idea.
-Make something real.
-Keep making it better.
-```
+**An email code, without the trip back to your inbox.**
 
-<div align="center">
-<sub>Always room for the next good idea.</sub>
-</div>
+A Chrome extension that finds recent Gmail verification codes and lets you choose when to fill them. A companion web dashboard handles setup, connection status, and preferences.
+
+- Gmail tokens, messages, and codes stay inside the extension.
+- Filling requires a click; the extension never submits the form.
+- Shared OTP and security logic sits alongside the extension and website.
+
+`React` `Next.js` `Convex` `Bun` `Chrome MV3`
+
+[Source & technical notes](https://github.com/bakrmatlab/OTPGuard) &nbsp; / &nbsp; [Website](https://otpguard.net)
+
+<sub>The extension is currently installed unpacked; it is not yet available in the Chrome Web Store.</sub>
+
+### 02 / MoneyPal
+
+**Multiple wallets. One place to follow the money.**
+
+A personal finance app with deposits, withdrawals, wallet transfers, categories, and an analytics dashboard. Convex keeps data synchronized in real time; Clerk handles authentication.
+
+- Separate wallets with their own colors and icons.
+- Categorized transactions and financial charts.
+- Light and dark themes across the app.
+
+`React` `Vite` `Convex` `Clerk` `Tailwind CSS` `TanStack Router`
+
+[Source & setup](https://github.com/bakrmatlab/MoneyPal)
+
+### 03 / Portfolio
+
+A separate React and TypeScript project, built with Vite and Tailwind CSS.
+
+[Source](https://github.com/bakrmatlab/portfolio)
+
+---
+
+### Stack, By Job
+
+| Layer | Tools in these projects |
+| :--- | :--- |
+| Interfaces | React, Next.js, Tailwind CSS |
+| Data & authentication | Convex, Clerk |
+| Routing & state | TanStack Router, TanStack Query, Zustand |
+| Forms & charts | React Hook Form, Zod, Recharts |
+| Build & runtime | TypeScript, Vite, Bun |
+| Browser | Chrome extensions, Manifest V3 |
+
+### Inside The Repos
+
+OTPGuard includes [architecture decisions](https://github.com/bakrmatlab/OTPGuard/blob/main/documentation/architecture.md), a [threat model](https://github.com/bakrmatlab/OTPGuard/blob/main/documentation/threat-model.md), and synthetic browser tests. MoneyPal documents its [Convex setup](https://github.com/bakrmatlab/MoneyPal#convex-setup) and [project structure](https://github.com/bakrmatlab/MoneyPal#project-structure).
+
+<details>
+<summary>Earlier projects</summary>
+
+<br>
+
+[TheGuardianSearch](https://github.com/bakrmatlab/TheGuardianSearch) &nbsp; / &nbsp; [basic-CRUD-project](https://github.com/bakrmatlab/basic-CRUD-project) &nbsp; / &nbsp; [git_practice](https://github.com/bakrmatlab/git_practice)
+
+</details>
