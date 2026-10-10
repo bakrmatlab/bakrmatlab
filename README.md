@@ -79,11 +79,10 @@ OTPGuard includes [architecture decisions](https://github.com/bakrmatlab/OTPGuar
 
 </details>
 
-<details>
-<summary>After Hours</summary>
+---
+
+### After Hours
 
 ![GitHub contribution activity in red](./activity-red.svg)
 
 ![Decorative bug boss battle](./bug-boss.svg)
-
-</details>
