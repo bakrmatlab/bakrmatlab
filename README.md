@@ -2,13 +2,22 @@
 
 ![GitHub contribution activity in red](./activity-red.svg)
 
+<p align="center">
+  <a href="https://react.dev"><img src="https://cdn.simpleicons.org/react/DF2638" alt="React" width="40" height="40"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://nextjs.org"><img src="https://cdn.simpleicons.org/nextdotjs/DF2638" alt="Next.js" width="40" height="40"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.typescriptlang.org"><img src="https://cdn.simpleicons.org/typescript/DF2638" alt="TypeScript" width="40" height="40"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://tailwindcss.com"><img src="https://cdn.simpleicons.org/tailwindcss/DF2638" alt="Tailwind CSS" width="40" height="40"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://vite.dev"><img src="https://cdn.simpleicons.org/vite/DF2638" alt="Vite" width="40" height="40"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://bun.sh"><img src="https://cdn.simpleicons.org/bun/DF2638" alt="Bun" width="40" height="40"></a>
+</p>
+
 I build web apps and browser extensions. My projects range from getting an email verification code into a login form to tracking money across multiple wallets.
 
 **[Repositories](https://github.com/bakrmatlab?tab=repositories)** &nbsp; / &nbsp; **[OTPGuard website](https://otpguard.net)** &nbsp; / &nbsp; **[Portfolio source](https://github.com/bakrmatlab/portfolio)**
 
 ---
 
-### 01 / OTPGuard
+### <img src="https://raw.githubusercontent.com/bakrmatlab/OTPGuard/main/apps/extension/assets/icon.png" alt="" width="32" height="32"> 01 / OTPGuard
 
 **An email code, without the trip back to your inbox.**
 
@@ -24,7 +33,7 @@ A Chrome extension that finds recent Gmail verification codes and lets you choos
 
 <sub>The extension is currently installed unpacked; it is not yet available in the Chrome Web Store.</sub>
 
-### 02 / MoneyPal
+### <img src="https://raw.githubusercontent.com/bakrmatlab/MoneyPal/main/public/android-chrome-192x192.png" alt="" width="32" height="32"> 02 / MoneyPal
 
 **Multiple wallets. One place to follow the money.**
 
