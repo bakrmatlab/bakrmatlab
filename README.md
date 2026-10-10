@@ -1,4 +1,4 @@
-![Bakr Matlab - Web applications and browser extensions](./banner.svg)
+![Bakr Matlab - Web applications and browser extensions](./banner-red.svg)
 
 I build web apps and browser extensions. My projects range from getting an email verification code into a login form to tracking money across multiple wallets.
 
