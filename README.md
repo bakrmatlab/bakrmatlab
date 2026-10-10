@@ -15,6 +15,10 @@ I build web apps and browser extensions. My projects range from getting an email
 
 **[Repositories](https://github.com/bakrmatlab?tab=repositories)** &nbsp; / &nbsp; **[OTPGuard website](https://otpguard.net)** &nbsp; / &nbsp; **[Portfolio source](https://github.com/bakrmatlab/portfolio)**
 
+![Code assembly line](./assembly-line.svg)
+
+![Decorative bug boss battle](./bug-boss.svg)
+
 ---
 
 ### 01 / OTPGuard
